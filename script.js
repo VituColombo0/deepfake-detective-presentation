@@ -58,7 +58,21 @@ const cases = [
             { top: 70, left: 50, label: 'Dedos derretidos e borrados (Artefato de IA)' },
             { top: 60, left: 65, label: 'Brinco distorcido' }
         ]
-    }
+    },
+    {
+        icon: '🧴', title: 'Pele "Plástica"',
+        real: 'images/real_case_09.png', fake: 'images/fake_case_09.png',
+        hotspots: [
+            { top: 50, left: 50, label: 'Pele excessivamente lisa, sem poros ou marcas' }
+        ]
+    },
+    {
+        icon: '🔄', title: 'Repetição de Padrões',
+        real: 'images/real_case_10.png', fake: 'images/fake_case_10.png',
+        hotspots: [
+            { top: 40, left: 30, label: 'Texturas clonadas de forma repetitiva' }
+        ]
+    },
 ];
 
 // ── State ──

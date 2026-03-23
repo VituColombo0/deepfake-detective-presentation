@@ -3,8 +3,7 @@ const cases = [
         icon: '👁️', title: 'Olhos e Olhar',
         real: 'images/real_case_01.png', fake: 'images/fake_case_01.png',
         hotspots: [
-            { top: 40, left: 40, label: 'Íris azul artificial' },
-            { top: 40, left: 60, label: 'Íris castanha original' }
+            { top: 40, left: 60, label: 'Pupila ovalada ou assimétrica em relação ao outro olho' }
         ]
     },
     {
@@ -22,11 +21,10 @@ const cases = [
         ]
     },
     {
-        icon: '🧱', title: 'Fundo "Derretido"',
+        icon: '🧱', title: 'Fundo Distorcido',
         real: 'images/real_case_04.png', fake: 'images/fake_case_04.png',
         hotspots: [
-            { top: 45, left: 15, label: 'Fundo de tijolos distorcido' },
-            { top: 30, left: 80, label: 'Madeira ondulada no topo' }
+            { top: 25, left: 30, label: 'Leve ondulação ou distorção irreal no padrão do fundo' }
         ]
     },
     {
@@ -55,15 +53,14 @@ const cases = [
         icon: '✋', title: 'Mãos e Periferias',
         real: 'images/real_case_08.png', fake: 'images/fake_case_08.png',
         hotspots: [
-            { top: 70, left: 50, label: 'Dedos derretidos e borrados (Artefato de IA)' },
-            { top: 60, left: 65, label: 'Brinco distorcido' }
+            { top: 70, left: 55, label: 'Dedo extra (6 dedos) gerado por confusão da IA' }
         ]
     },
     {
         icon: '🧴', title: 'Pele "Plástica"',
         real: 'images/real_case_09.png', fake: 'images/fake_case_09.png',
         hotspots: [
-            { top: 50, left: 50, label: 'Pele excessivamente lisa, sem poros ou marcas' }
+            { top: 50, left: 50, label: 'Textura da pele lavada ("filtro de beleza" excessivo)' }
         ]
     },
     {

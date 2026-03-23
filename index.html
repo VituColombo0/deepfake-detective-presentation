@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepfake Detective — Real vs Fake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Deepfake <span>Detective</span></div>
+        <span class="counter" id="counter">01 / 11</span>
+    </header>
+
+    <div class="app">
+        <nav class="sidebar" id="sidebar"></nav>
+
+        <div class="main">
+            <div class="comparison">
+                <div class="panel">
+                    <span class="panel-label label-real">✓ Real</span>
+                    <div class="img-frame" id="frame-real">
+                        <img id="img-real" src="" alt="Foto real">
+                    </div>
+                </div>
+                <div class="panel">
+                    <span class="panel-label label-fake">✗ Gerada por IA</span>
+                    <div class="img-frame" id="frame-fake">
+                        <img id="img-fake" src="" alt="Imagem gerada por IA">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="controls">
+                    <button class="btn btn-arrow" id="prev" title="Anterior (←)">←</button>
+                    <button class="btn btn-reveal" id="reveal">Revelar</button>
+                    <button class="btn btn-arrow" id="next" title="Próximo (→)">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
